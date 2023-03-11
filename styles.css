@@ -31,7 +31,7 @@ img{
 
 
 
-.container{
+main{
   background-color: white;
   border-radius: 0.625rem;
   padding: 1.25rem;
@@ -39,34 +39,34 @@ img{
   margin-bottom: 2rem;
 }
 
-.container img{
+main img{
   border-radius: 0.625rem;
   margin-bottom: 1rem;
 }
 
-.container h1 {
+main h1 {
   color: hsl(218, 44%, 22%);
   text-align: center;
   margin: ;
 }
 
-.container p {
+main p {
   color: hsl(220, 15%, 55%);
   text-align: center;
 }
 
-.atributtion {
+footer {
   font-size: 11px;
   text-align: center;
 }
 
-.atributtion a {
+footer a {
   color: hsl(228, 45%, 44%);
   text-align: center;
 }
 
 @media (min-width:500px){
-  .container{
+  main{
     width:400px;
     
   }
